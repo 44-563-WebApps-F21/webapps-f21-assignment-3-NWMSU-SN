@@ -1,81 +1,89 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>HTML</title>
-<style>
-    table,
-    th,
-    td {
-        border: 1px solid black;
-    }
-</style>
+    <title>HTML</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
+
 <body>
+    <a href="bonus.html">BONUS</a>
+    <h1>Santhosh Naini</h1>
 
-<h1>Santhosh Naini</h1>
+    <h6>INDIA</h6>
+    <p><b>Diverse and Colorful Geography</b>. India offers its tourists the <b>highest mountains</b>, the deepest
+        ravines and valleys, wide deserts, white sand beaches, reefs, archipelagos, coasts, dense forests, dry plains,
+        productive farmlands, flowing rivers, and many other natural wonders.</p>
 
-<h6>INDIA</h6>
-<p><b>Diverse and Colorful Geography</b>. India offers its tourists the <b>highest mountains</b>, the deepest ravines and valleys, wide deserts, white sand beaches, reefs, archipelagos, coasts, dense forests, dry plains, productive farmlands, flowing rivers, and many other natural wonders.</p>
+    <hr>
+    <h6>Travelling Directions</h6>
+    <ol>
+        <li>Marryville - Kansas city(MCI)</li>
+        <li>kansas city - Chicago(ORD)</li>
+        <li>Chicago - Delhi(IGI)</li>
+        <li>Delhi - Hyderabad(RGI)</li>
+    </ol>
+    <h3>Items brought for maximum enjoyment</h3>
+    <ul>
+        <li>Pens</li>
+        <li>note books</li>
+        <li>laptop</li>
+        <li>phone</li>
+    </ul>
+    <hr>
+    <a href="aboutme.html">aboutme</a>
+    <hr>
 
-<hr>
-<h6>Travelling Directions</h6>
-<ol>
-    <li>Marryville - Kansas city(MCI)</li>
-    <li>kansas city - Chicago(ORD)</li>
-    <li>Chicago - Delhi(IGI)</li>
-    <li>Delhi - Hyderabad(RGI)</li>
-</ol>
-<h3>Items brought for maximum enjoyment</h3>
-<ul>
-    <li>Pens</li>
-    <li>note books</li>
-    <li>laptop</li>
-    <li>phone</li>
-</ul>
-<hr>
-<a href="aboutme.html">aboutme</a>
-<hr>
+    <p>Recomended Drinks/Food in Resturants</p>
+    <table>
+        <tr>
+            <th>Drinks/Food</th>
+            <th>Location</th>
+            <th>Amount</th>
+        </tr>
 
-<p>Recomended Drinks/Food in Resturants</p>
-<table>
-    <tr>
-        <th>Drinks/Food</th>
-        <th>Location</th>
-        <th>Amount</th>
-    </tr>
+        <tr>
+            <td>Diet coke</td>
+            <td>Burger king</td>
+            <td>$1</td>
+        </tr>
 
-    <tr>
-        <td>Diet coke</td>
-        <td>Burger king</td>
-        <td>$1</td>
-    </tr>
+        <tr>
+            <td>Nuggets</td>
+            <td>Mc donalds</td>
+            <td>$2</td>
+        </tr>
 
-    <tr>
-        <td>Nuggets</td>
-        <td>Mc donalds</td>
-        <td>$2</td>
-    </tr>
+        <tr>
+            <td>fries</td>
+            <td>Tacobell</td>
+            <td>$4</td>
+        </tr>
 
-    <tr>
-        <td>fries</td>
-        <td>Tacobell</td>
-        <td>$4</td>
-    </tr>
+        <tr>
+            <td>Pizza</td>
+            <td>Dominos</td>
+            <td>$7</td>
+        </tr>
+    </table>
 
-    <tr>
-        <td>Pizza</td>
-        <td>Dominos</td>
-        <td>$7</td>
-    </tr>
-</table>
+    <hr>
 
-<hr>
-
-<blockquote cite="https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm">
-    In computer science, the Rabin–Karp algorithm or Karp–Rabin algorithm is a string-searching algorithm created by Richard M. Karp and Michael O. Rabin (1987) that uses hashing to find an exact match of a pattern string in a text. It uses a rolling hash to quickly filter out positions of the text that cannot match the pattern, and then checks for a match at the remaining positions. Generalizations of the same idea can be used to find more than one match of a single pattern, or to find matches for more than one pattern.
-</blockquote>
-<a href="https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm"> Quick link</a>
-<pre>vector<int> rabin_karp(string const& s, string const& t) {
+    <blockquote cite="https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm">
+        In computer science, the Rabin–Karp algorithm or Karp–Rabin algorithm is a string-searching algorithm created by
+        Richard M. Karp and Michael O. Rabin (1987) that uses hashing to find an exact match of a pattern string in a
+        text. It uses a rolling hash to quickly filter out positions of the text that cannot match the pattern, and then
+        checks for a match at the remaining positions. Generalizations of the same idea can be used to find more than
+        one match of a single pattern, or to find matches for more than one pattern.
+    </blockquote>
+    <a href="https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm"> Quick link</a>
+    <pre>vector<int> rabin_karp(string const& s, string const& t) {
 const int p = 31; 
 const int m = 1e9 + 9;
 int S = s.size(), T = t.size();
@@ -102,6 +110,5 @@ return occurences;
 }
 </pre>
 </body>
+
 </html>
-
-
